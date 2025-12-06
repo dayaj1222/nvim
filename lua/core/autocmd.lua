@@ -1,3 +1,4 @@
+-- Two space indentation in specific filetypes
 vim.api.nvim_create_autocmd("FileType", {
 	pattern = { "html", "htmldjango", "typescriptreact", "javascriptreact", "jsx", "lua", "c", "cpp" },
 	callback = function()
@@ -10,6 +11,7 @@ vim.api.nvim_create_autocmd("FileType", {
 	end,
 })
 
+-- Highlight the yanked text
 vim.api.nvim_create_autocmd("TextYankPost", {
 	desc = "Highlight when yanking (copying) text",
 	group = vim.api.nvim_create_augroup("kickstart-highlight-yank", { clear = true }),

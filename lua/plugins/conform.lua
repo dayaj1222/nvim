@@ -16,6 +16,10 @@ return {
 			rust = { "rustfmt" },
 			c = { "clang-format" },
 			cpp = { "clang-format" },
+			bash = { "beautysh" },
+			sh = { "beautysh" },
+			zsh = { "beautysh" },
+			ksh = { "beautysh" },
 		},
 		format_on_save = {
 			timeout_ms = 2000,

@@ -4,10 +4,10 @@
   "catppuccin": { "branch": "main", "commit": "ce8d176faa4643e026e597ae3c31db59b63cef09" },
   "conform.nvim": { "branch": "master", "commit": "5420c4b5ea0aeb99c09cfbd4fd0b70d257b44f25" },
   "friendly-snippets": { "branch": "main", "commit": "572f5660cf05f8cd8834e096d7b4c921ba18e175" },
-  "grug-far.nvim": { "branch": "main", "commit": "74eef260e1142264ab994fb9c88e4f420e9486d7" },
   "harpoon": { "branch": "harpoon2", "commit": "87b1a3506211538f460786c23f98ec63ad9af4e5" },
   "lazy.nvim": { "branch": "main", "commit": "306a05526ada86a7b30af95c5cc81ffba93fef97" },
   "leap.nvim": { "branch": "main", "commit": "af1dedf49efe203b98c65970a6bb652af256b882" },
+  "markview.nvim": { "branch": "main", "commit": "03fe3f42093d47a8536276f682cf057f8c14033b" },
   "mason-lspconfig.nvim": { "branch": "main", "commit": "9f9c67795d0795a6e8612f5a899ca64a074a1076" },
   "mason.nvim": { "branch": "main", "commit": "57e5a8addb8c71fb063ee4acda466c7cf6ad2800" },
   "mini.nvim": { "branch": "main", "commit": "7e55c3d2c04da134085a31156196836f80a89982" },
@@ -15,7 +15,6 @@
   "nvim-treesitter": { "branch": "main", "commit": "6e42d823ce0a5a76180c473c119c7677738a09d1" },
   "nvim-ts-autotag": { "branch": "main", "commit": "c4ca798ab95b316a768d51eaaaee48f64a4a46bc" },
   "plenary.nvim": { "branch": "master", "commit": "b9fd5226c2f76c951fc8ed5923d85e4de065e509" },
-  "resty.nvim": { "branch": "main", "commit": "1d03fa71616fc1d9bf412eb10ce7d08412bd9fd4" },
   "snacks.nvim": { "branch": "main", "commit": "fe7cfe9800a182274d0f868a74b7263b8c0c020b" },
   "which-key.nvim": { "branch": "main", "commit": "3aab2147e74890957785941f0c1ad87d0a44c15a" }
 }

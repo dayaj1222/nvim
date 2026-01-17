@@ -11,7 +11,7 @@ return {
 			javascriptreact = { "biome" },
 			typescriptreact = { "biome" },
 			json = { "biome" },
-			html = { "biome" },
+			html = { "prettier" },
 			css = { "biome" },
 			rust = { "rustfmt" },
 			c = { "clang-format" },

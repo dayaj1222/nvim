@@ -21,6 +21,9 @@ return {
 				"vim",
 				"vimdoc",
 				"query",
+				"c",
+				"cpp",
+				"graphql",
 			},
 		})
 	end,

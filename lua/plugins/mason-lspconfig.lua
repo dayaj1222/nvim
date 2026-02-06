@@ -13,6 +13,7 @@ return {
 			"cssls",
 			"html",
 			"bashls",
+			"clangd",
 		},
 	},
 	dependencies = {

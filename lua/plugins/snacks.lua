@@ -4,7 +4,6 @@ return {
 	lazy = false,
 	---@type snacks.Config
 	opts = {
-		terminal = { enabled = false },
 		bigfile = { enabled = true },
 		image = { enabled = true },
 		dashboard = {
@@ -299,15 +298,6 @@ return {
 				end
 			end,
 			desc = "󱕖 Delete Buffer",
-		},
-		{
-			"<C-\\>",
-			mode = { "n", "t", "i" },
-
-			function()
-				Snacks.terminal()
-			end,
-			desc = " Toggle Terminal",
 		},
 	},
 

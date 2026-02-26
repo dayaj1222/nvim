@@ -1,7 +1,9 @@
 return {
 	{
 		"CopilotC-Nvim/CopilotChat.nvim",
-		dependencies = { "nvim-lua/plenary.nvim" },
+		dependencies = {
+			{ "nvim-lua/plenary.nvim", branch = "master" },
+		},
 		build = "make tiktoken",
 		cmd = { "CopilotChatOpen", "CopilotChat" },
 		opts = {
@@ -12,12 +14,10 @@ return {
 				width = 0.3,
 			},
 			headers = {
-				user = " Daya",
-				assistant = " Copilot",
-				tool = " Tool",
+				user = " Daya",
+				assistant = " Copilot",
+				tools = "󱁤",
 			},
-			auto_insert_mode = true,
-			show_help = false,
 		},
 	},
 }

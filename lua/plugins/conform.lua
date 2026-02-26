@@ -20,6 +20,7 @@ return {
 			sh = { "beautysh" },
 			zsh = { "beautysh" },
 			ksh = { "beautysh" },
+			go = { "gofmt" },
 		},
 		format_on_save = {
 			timeout_ms = 2000,

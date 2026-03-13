@@ -14,6 +14,7 @@ return {
 			"html",
 			"bashls",
 			"clangd",
+			"gopls",
 		},
 	},
 	dependencies = {

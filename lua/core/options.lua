@@ -6,7 +6,7 @@ vim.o.encoding = "utf-8" -- Default file encoding
 vim.o.fileencoding = "utf-8"
 vim.o.mouse = "a" -- Enable mouse support
 vim.o.updatetime = 300 -- Faster completion and CursorHold
-vim.o.timeoutlen = 3000 -- Key sequence timeout
+vim.o.timeoutlen = 300 -- Key sequence timeout
 vim.o.conceallevel = 2
 
 -- ───────────────────────────────
@@ -50,10 +50,8 @@ vim.o.splitbelow = true -- Horizontal splits below
 
 -- ───────────────────────────────
 -- Performance
-vim.o.lazyredraw = true -- Faster macros
 vim.o.showmode = false -- Disable mode since statusline shows it
-vim.o.completeopt = "menuone,noselect" -- For completion plugins
-
+vim.o.completeopt = "menu,menuone,noselect"
 -- ───────────────────────────────
 -- File Explorer / Misc
 vim.o.backspace = "indent,eol,start" -- Make backspace behave like normal

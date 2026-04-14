@@ -7,6 +7,7 @@ vim.o.fileencoding = "utf-8"
 vim.o.mouse = "a" -- Enable mouse support
 vim.o.updatetime = 300 -- Faster completion and CursorHold
 vim.o.timeoutlen = 3000 -- Key sequence timeout
+vim.o.conceallevel = 2
 
 -- ───────────────────────────────
 -- UI
@@ -58,9 +59,3 @@ vim.o.completeopt = "menuone,noselect" -- For completion plugins
 vim.o.backspace = "indent,eol,start" -- Make backspace behave like normal
 vim.o.wildmenu = true -- Command-line completion menu
 vim.o.wildmode = "longest:full,full"
-
--- ───────────────────────────────
--- Folding (treesitter friendly)
-vim.o.foldmethod = "expr"
-vim.o.foldexpr = "nvim_treesitter#foldexpr()"
-vim.o.foldlevel = 99 -- Open all folds by default
